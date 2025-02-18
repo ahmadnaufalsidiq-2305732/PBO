@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Tugas1 {
+public class Soal1 {
     public static void main(String[] args) {
         Scanner projectScanner = new Scanner(System.in);
         
