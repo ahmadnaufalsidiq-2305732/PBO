@@ -22,7 +22,7 @@ public class Soal3 {
         if (lamaParkir <= 2) {
             biayaParkir = 1500;
         } else {
-            biayaParkir = 1500 + ((lamaParkir - 1) * 1000);
+            biayaParkir = 1500 + ((lamaParkir - 2) * 1000);
         }
         
         System.out.println("Lama parkir: " + lamaParkir + " jam");
