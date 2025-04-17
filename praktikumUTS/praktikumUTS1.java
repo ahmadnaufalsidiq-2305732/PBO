@@ -7,7 +7,9 @@ public class praktikumUTS1 {
         System.out.print("Masukkan bilangan bulat tiga digit: ");
         int bilangan = projectScanner.nextInt();
 
-        if (bilangan >= 100 || bilangan <= 999) {
+        if (bilangan < 100 || bilangan > 999) {
+            System.out.println("Bilangan yang dimasukkan bukan bilangan tiga digit.");
+        } else {
             int digitAwal = bilangan / 100;
             int digitAkhir = bilangan % 10;
             
@@ -16,8 +18,6 @@ public class praktikumUTS1 {
             } else {
                 System.out.println(bilangan + " bukan bilangan palindrom.");
             }
-        } else {
-            System.out.println("Bilangan yang dimasukkan bukan bilangan tiga digit.");
         }
     }
 }
